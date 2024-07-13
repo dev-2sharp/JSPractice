@@ -1,6 +1,7 @@
 console.log('truthy and falsy');
 let myName;
 console.log('myName:',myName);
+console.log(typeof myName);
 
 
 if(myName){
@@ -10,5 +11,25 @@ if(myName){
 }
 if (1<=2) {
     myName = 'Tushar';
+    console.log(typeof myName);
     console.log('myName:',myName);
-   }
+} else{
+        console.log('this will not be printed');
+}
+
+let mySalary =0
+    console.log('mySalary1: ',mySalary);
+if (mySalary) {
+    console.log('mySalary2: ',mySalary);
+} else {
+  console.log('mySalary3: ',mySalary);
+}
+
+mySalary = 10;
+console.log('mySalary1: ',mySalary);
+if (mySalary) {
+   console.log('mySalary2: ',mySalary);
+} else {
+  console.log('mySalary3: ',mySalary);
+}
+
