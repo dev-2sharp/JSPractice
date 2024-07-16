@@ -53,3 +53,6 @@ console.log('myDetails City Name',myDetails);
 //Access object using . & []
 myCountry = myDetails.Country;
 console.log('myCountry', myCountry);
+
+let myCity = myDetails['City Name'];
+console.log('myCity',myCity);
