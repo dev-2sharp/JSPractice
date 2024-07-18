@@ -139,3 +139,4 @@ for (let odd of Object.values(odds)) {
 }
 let averageOdd = total / count;
 console.log(`Average odd: ${averageOdd}`);
+  };
