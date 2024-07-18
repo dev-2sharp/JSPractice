@@ -32,6 +32,7 @@ let [s1,s2,...rest] = sabji;
 console.log('s1',s1);
 console.log('s2',s2);
 console.log('...rest',rest);
+console.log('...rest',...rest);
 
 console.log('----------DeStructuring Objects----------');
 let Com = {
